@@ -206,10 +206,11 @@
     text-align: center;
     display: flex;
 
-    .nav-item + .nav-item{
-        margin: 0 0 0 2rem; 
-    }
   }
+
+  .nav-item + .nav-item{
+    margin: 0 0 0 2rem; 
+}
   
   .nav .nav-item {
     font-family: var(--nav-item-font-family);
