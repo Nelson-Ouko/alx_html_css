@@ -206,11 +206,6 @@
         list-style: none;
         text-align: center;
       }
-
-      .nav-item + .nav-item{
-        margin: var(0 0 0 2rem);
-        
-      }
       
       .nav .nav-item {
         font-family: var(--nav-item-font-family);
@@ -218,6 +213,10 @@
         font-size: var(--nav-item-font-size);
         letter-spacing: var(--nav-item-letter-spacing);
         
+      }
+    
+      .nav .nav-item + .nav-item {
+        margin: var(0 0 0 2rem);
       }
       
       .nav .nav-link {
@@ -246,7 +245,7 @@
         background-color: var(--color-primary);
         width: 100%;
       }
-
+      
   /* Header
       ============================= */
   
