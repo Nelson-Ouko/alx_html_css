@@ -198,16 +198,15 @@
   /* Navbar
       ============================= */
   
-  
-      .nav {
-        display: flex;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        text-align: center;
-      }
+    .nav {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: center;
+  }
       
-      .nav .nav-item {
+    .nav .nav-item {
         font-family: var(--nav-item-font-family);
         font-weight: var(--nav-item-font-weight);
         font-size: var(--nav-item-font-size);
@@ -216,7 +215,7 @@
       }
     
       .nav .nav-item + .nav-item {
-        margin: var(0 0 0 2rem);
+        margin: var(--nav-item-margin);
       }
       
       .nav .nav-link {
@@ -246,6 +245,7 @@
         width: 100%;
       }
       
+  
   /* Header
       ============================= */
   
